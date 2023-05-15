@@ -8,7 +8,18 @@
     height: 80%;
     align-items: center;
     margin: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #f4f0f0;
+}
+
+.profile-card .profile-photo-div{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-card .profile-photo  {
@@ -19,6 +30,7 @@
     height: 220px;
     width: 220px;
     border-radius: 120px;
+    border: 1px solid white;
     background-color: #dbdada;
 }
 .profile-card .profile-photo .profile-photo-inner {
@@ -27,10 +39,42 @@
     height: 200px;
     width: 200px;
     border-radius: 100px;
+    border: 2px soid black;
 }
 
 .profile-card .profile-photo .profile-photo-inner img{
     height: 200px;
     width: 200px;
     border-radius: 100px;
+}
+
+.user{
+    display: flex;
+    height: 10%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+    height: 30%;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.socials .icons a>img{
+    height: 40px;
+    width: 40px;
 }
