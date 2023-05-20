@@ -16,7 +16,7 @@
 
 .profile-card .profile-photo-div{
     display: flex;
-    height: 45%;
+    height: 50%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -55,6 +55,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+hr{
+    border-top: 1px solid black;
+    width: 80%;
 }
 
 .socials{

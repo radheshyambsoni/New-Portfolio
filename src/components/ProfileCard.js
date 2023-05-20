@@ -20,6 +20,7 @@ const ProfileCard = () => {
             <h2 className='user-name'>Radheshyam Soni</h2>
             <div className="username">&#64;radheshyambsoni</div>
         </div>
+        <hr />
         <div className="socials">
             <div className='icons'>
                 <a href="https://github.com/radheshyambsoni">

@@ -3,10 +3,10 @@ import ProfileCard from './ProfileCard';
 import './Content.css'
 import View from './View';
 
-const Content = () => {
+const Content = (props) => {
     return <div className="content">
         <ProfileCard />
-        <View />
+        <View page={props.page}/>
     </div>
 }
 
