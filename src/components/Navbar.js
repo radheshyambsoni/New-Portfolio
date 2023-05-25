@@ -36,7 +36,7 @@ const Navbar = (props) => {
                     <button onClick={onAboutClicked}>About</button>
                 </li>
                 <li>
-                    <a rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'>Resume</a>
+                    <a rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'><button>Resume</button></a>
                 </li>
             </ul>
         </div>

@@ -9,6 +9,8 @@
 
 .navbar .menu ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
@@ -17,7 +19,22 @@ li{
     list-style-type: none;
 }
 
-a{
+button{
+    background: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+
+/* a{
     text-decoration: none;
     font-size: 22px;
     font-weight: 550;
@@ -31,5 +48,6 @@ a:visited{
 }
 
 a:hover{
-    color: yellow;
-}
+    color: blue;
+    background-color: aliceblue;
+} */
