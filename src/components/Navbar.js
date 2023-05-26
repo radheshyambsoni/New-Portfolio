@@ -2,16 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import About from './views/About'
 import Projects from './views/Projects'
-import Skills from './views/Skills'
 import Contact from './views/Contact'
 
 const Navbar = (props) => {
     // const [view,setView] = useState(<About />);    
     const onProjectsClicked = () =>{
         props.onViewChange(<Projects />);
-    }
-    const onSkillsClicked = () =>{
-        props.onViewChange(<Skills />);
     }
     const onContactClicked = () =>{
         props.onViewChange(<Contact />);
@@ -25,10 +21,7 @@ const Navbar = (props) => {
             <ul>
                 <li>
                     <button onClick={onProjectsClicked}>Projects</button>
-                </li>
-                <li>
-                    <button onClick={onSkillsClicked}>Skills</button>
-                </li>
+                </li>                
                 <li>
                     <button onClick={onContactClicked}>Contact</button>
                 </li>
