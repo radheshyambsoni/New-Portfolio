@@ -4,12 +4,61 @@
 
 .about{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
     width: 100%;
-    padding: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+}
+
+.about .userinfo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.about .userinfo .my-heading, .my-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.about .divider{
+    display: flex;
+    border: 1.5px solid darkgray;
+    border-radius: 10px;
+    height: 80%;
+    margin-left: 12px;
+}
+
+.about .skills{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .skills .technical-skill-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.about .skills .technical-skill-list .skill-container{
+    padding: 8px;
+    margin: 8px;
+    color: rgb(101, 101, 101);
+    background-color: lightgray;
     border-radius: 10px;
 }
