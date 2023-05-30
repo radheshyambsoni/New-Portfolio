@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .view{
     display: flex;
     flex-direction: column;
@@ -6,4 +8,5 @@
     width: 65%;
     border-radius: 10px;
     background-color: #f4f0f0;
+    font-family: 'Lato', sans-serif;
 }

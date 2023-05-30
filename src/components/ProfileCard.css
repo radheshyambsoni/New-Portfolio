@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -8,10 +10,10 @@
     height: 80%;
     align-items: center;
     margin: 20px;
-    /* border: 2px solid black; */
     border-radius: 10px;
     z-index: 1;
     background-color: #f4f0f0;
+    font-family: 'Lato', sans-serif;
 }
 
 .profile-card .profile-photo-div{
@@ -50,15 +52,23 @@
 
 .user{
     display: flex;
-    height: 10%;
-    margin: 10px;
+    height: 15%;
+    margin: 5px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+.user .user-name{
+    padding: 10px;
+}
+
+.user .username{
+    padding: 10px;
+}
+
 hr{
-    border-top: 1px solid black;
+    border-top: 2px solid darkgray;
     width: 80%;
 }
 
@@ -79,7 +89,11 @@ hr{
     padding: 20px;
 }
 
+.socials .icons a{
+    padding: 5px;
+}
+
 .socials .icons a>img{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }

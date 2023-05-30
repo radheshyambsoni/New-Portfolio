@@ -6,6 +6,7 @@ import instagramicon from '../img/instagram-ico.png';
 import linkedinicon from '../img/linkedin-ico.png';
 import leetcodeicon from '../img/leetcode-ico.png';
 import facebookicon from '../img/facebook-ico.png';
+import twittericon from '../img/twitter-ico.png';
 
 const ProfileCard = () => {
     return <div className="profile-card">
@@ -23,13 +24,12 @@ const ProfileCard = () => {
         <hr />
         <div className="socials">
             <div className='icons'>
-                <a href="https://github.com/radheshyambsoni">
-                    <img src={githubicon} alt="" />
-                </a>
+                <a href="https://github.com/radheshyambsoni"><img src={githubicon} alt="" /></a>
                 <a href="https://linkedin.com/in/radheshyambsoni"><img src={linkedinicon} alt="" /></a>
                 <a href="https://instagram.com/radheshyambsoni"><img src={instagramicon} alt="" /></a>
                 <a href="https://leetcode.com/radheshyambsoni"><img src={leetcodeicon} alt="" /></a>
                 <a href="https://facebook.com/radheshyambsoni"><img src={facebookicon} alt="" /></a>
+                <a href="https://twitter.com/radheshyambsoni"><img src={twittericon} alt="" /></a>
             </div>
         </div>
     </div>

@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     height: 70px;
-    background-color: #fead5d;
+    width: 40%;
+    background-color: #8686867c;
+    border-radius: 20px;
 }
 
 .navbar .menu ul{
@@ -22,32 +26,15 @@ li{
 button{
     background: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     color: white;
     border: none;
     border-radius: 10px;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 button:hover{
     color: blue;
     background-color: aliceblue;
 }
-
-/* a{
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 550;
-    padding: 6px 12px;
-    border-radius: 12px;
-    color: white;
-}
-
-a:visited{
-    color: white;
-}
-
-a:hover{
-    color: blue;
-    background-color: aliceblue;
-} */
