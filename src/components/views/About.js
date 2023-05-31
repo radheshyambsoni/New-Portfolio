@@ -10,20 +10,12 @@ const About = () => {
             </div>
         </div>
         <div className="divider"></div>
-        <div className="skills">
-            <h3>Technical Skills</h3>
-            <div className='technical-skill-list'>
-            <div className="skill-container">Java</div>
-            <div className="skill-container">HTML</div>
-            <div className="skill-container">CSS</div>
-            <div className="skill-container">JavaScript</div>
-            <div className="skill-container">React</div>
-            <div className="skill-container">C++</div>
-            <div className="skill-container">Python</div>
-            <div className="skill-container">Git</div>
-            <div className="skill-container">MySQL</div>
-            <div className="skill-container">Android Studio</div>
-            </div>
+        <div className="contact">
+            <ul>
+                <li>Email : geekyradhe11@gmail.com</li>
+                <li>Phone: +91 9921357773</li>
+                <li>Alternate Email : radheshyambsoni@gmail.com</li>
+            </ul>
         </div>
     </div>
 }

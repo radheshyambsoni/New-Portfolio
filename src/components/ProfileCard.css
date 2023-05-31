@@ -7,11 +7,10 @@
     display: flex;
     flex-direction: column;
     width: 20%;
-    height: 80%;
+    height: 90%;
     align-items: center;
     margin: 20px;
     border-radius: 10px;
-    z-index: 1;
     background-color: #f4f0f0;
     font-family: 'Lato', sans-serif;
 }
@@ -24,46 +23,45 @@
     justify-content: center;
 }
 
-.profile-card .profile-photo  {
+.profile-card .profile-photo-div .profile-photo  {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    background-color: #dbdada;
+}
+.profile-card .profile-photo-div .profile-photo .profile-photo-inner {
+    display: flex;
     margin: 10px;
     height: 220px;
     width: 220px;
-    border-radius: 120px;
-    border: 1px solid white;
-    background-color: #dbdada;
-}
-.profile-card .profile-photo .profile-photo-inner {
-    display: flex;
-    margin: 10px;
-    height: 200px;
-    width: 200px;
     border-radius: 100px;
     border: 2px soid black;
 }
 
-.profile-card .profile-photo .profile-photo-inner img{
-    height: 200px;
-    width: 200px;
+.profile-card .profile-photo-div .profile-photo .profile-photo-inner img{
+    height: 220px;
+    width: 220px;
     border-radius: 100px;
 }
 
 .user{
     display: flex;
     height: 15%;
-    margin: 5px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .user .user-name{
+    font-size: 30px;
     padding: 10px;
 }
 
 .user .username{
+    font-size: 18px;
     padding: 10px;
 }
 

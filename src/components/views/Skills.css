@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .section-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .section-title .title{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    border-top: 2px solid darkgray;
+    width: 98%;
+}
+
+
+.skills .divider{
+    display: flex;
+    border: 1.5px solid darkgray;
+    border-radius: 10px;
+    height: 99%;
+}
+
+.skills .skills-div{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .skills-div .technical-skills-list{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .skills-div .technical-skills-list .skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 210, 198);
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.skills .skills-div .technical-skills-list .skill-container img{
+    height: 100px;
+    width: 100px;
+}
+
+.skills .skills-div .soft-skills-list{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.skills .soft-skill-list .skill-container{
+    display: flexbox;
+    margin: 10px;
+    color: rgb(47, 47, 47);
+    background-color: rgb(210, 210, 210);
+    padding: 10px;
+    border-radius: 10px;
+}

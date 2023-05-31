@@ -33,25 +33,37 @@ const fitOCracy = <div className='project-info'>
 
 const Projects = () => {
     const [pj, setPj] = useState(heatlhyHeartechs);
+    const [hhclass,setHhclass] = useState("selected");
+    const [gdclass,setGdclass] = useState("");
+    const [focclass,setFocclass] = useState("");
 
     const onHHClicked = () => {
         setPj(heatlhyHeartechs);
+        setHhclass("selected");
+        setGdclass("");
+        setFocclass("");
     }
-
+    
     const onGDClicked = () => {
         setPj(goingDutch);
+        setHhclass("");
+        setFocclass("");
+        setGdclass("selected");
     }
-
+    
     const onFOCClicked = () => {
         setPj(fitOCracy);
+        setHhclass("");
+        setFocclass("selected");
+        setGdclass("");
     }
 
     return <div className='projects'>
         <div className="projects-list">
             <ul>
-                <li onClick={onHHClicked}>💊Healthy-HearTechs</li>
-                <li onClick={onGDClicked}>📱Going Dutch</li>
-                <li onClick={onFOCClicked}>🏋️Fit-O-Cracy</li>
+                <li className={hhclass} onClick={onHHClicked}>💊Healthy-HearTechs</li>
+                <li className={focclass} onClick={onFOCClicked}>🏋️Fit-O-Cracy</li>
+                <li className={gdclass} onClick={onGDClicked}>📱Going Dutch</li>
             </ul>
         </div>
         <div className="divider"></div>
