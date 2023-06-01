@@ -1,37 +1,68 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: row;
     height: 100%;
     width: 100%;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 }
 
-.about .userinfo{
+.about .userinfo {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
+    height: 100%;
+    padding: 5%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding: 10px; */
 }
 
-.about .userinfo .my-heading, .my-info{
+.about .userinfo .my-heading-typing,
+.my-info {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     margin: 10px;
 }
 
-.about .divider{
+.about .userinfo .my-heading-typing {
+    font-size: 1.6rem;
+    color: rgb(23, 190, 251);
+}
+
+.about .userinfo .my-heading-typing .my-name {
+    color: brown;
+}
+
+.my-heading-typing {
+    width: 33ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    /* font-size: 2em; */
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-color: transparent
+    }
+}
+
+.about .divider {
     display: flex;
     border: 1.5px solid darkgray;
     border-radius: 10px;
@@ -39,6 +70,9 @@
     margin-left: 12px;
 }
 
-.about .contact{
+.about .contact {
     display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
 }

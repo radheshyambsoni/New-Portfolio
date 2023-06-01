@@ -6,7 +6,9 @@ import cssico from '../../img/css-ico.svg';
 import reactico from '../../img/react-blue-ico.svg';
 import cppico from '../../img/cpp-ico.svg';
 import pythonico from '../../img/python-ico.svg';
-import gitico from '../../img/git-ico.svg'
+import gitico from '../../img/git-ico.svg';
+import jsico from '../../img/javascript-ico.svg';
+import mysqlico from '../../img/mysql-ico.svg';
 
 const Skills = () => {
     return <div className="skills">
@@ -27,7 +29,9 @@ const Skills = () => {
                 <div className="skill-container">
                     <img src={cssico} alt="CSS5" />
                 </div>
-                <div className="skill-container">JavaScript</div>
+                <div className="skill-container">
+                    <img src={jsico} alt="" />
+                </div>
                 <div className="skill-container">
                     <img src={reactico} alt="" />
                 </div>
@@ -40,8 +44,9 @@ const Skills = () => {
                 <div className="skill-container">
                     <img src={gitico} alt="" />
                 </div>
-                <div className="skill-container">MySQL</div>
-                <div className="skill-container"></div>
+                <div className="skill-container">
+                    <img src={mysqlico} alt="" />
+                </div>
             </div>
             <div className="divider"></div>
             <div className="soft-skills-list">
