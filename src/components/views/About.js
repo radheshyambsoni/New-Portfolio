@@ -12,9 +12,9 @@ const About = () => {
         <div className="divider"></div>
         <div className="contact">
             <ul>
-                <li>Email : geekyradhe11@gmail.com</li>
-                <li>Phone: +91 9921357773</li>
-                <li>Alternate Email : radheshyambsoni@gmail.com</li>
+                <li>📧 geekyradhe11@gmail.com</li>
+                <li>📧 radheshyambsoni@gmail.com</li>
+                <li>📞 +91 9921357773</li>
             </ul>
         </div>
     </div>
