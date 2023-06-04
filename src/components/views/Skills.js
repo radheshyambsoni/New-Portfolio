@@ -50,20 +50,13 @@ const Skills = () => {
             </div>
             <div className="divider"></div>
             <div className="soft-skills-list">
-                <div className="skill-container">Goal</div> -Oriented
-
-                <div className="skill-container">Consistency</div> 
-
-                <div className="skill-container">Collaboration</div> 
-
-                <div className="skill-container">Positivity</div> 
-
-                <div className="skill-container">Adaptability</div> 
-
-                <div className="skill-container">Problem</div>  Solving
-
-                <div className="skill-container">Empathy</div> 
-
+                <div className="skill-container">Goal-Oriented</div>
+                <div className="skill-container">Consistency</div>
+                <div className="skill-container">Collaboration</div>
+                <div className="skill-container">Positivity</div>
+                <div className="skill-container">Adaptability</div>
+                <div className="skill-container">Problem Solving</div>
+                <div className="skill-container">Empathy</div>
                 <div className="skill-container">Creativity</div> 
             </div>
         </div>
