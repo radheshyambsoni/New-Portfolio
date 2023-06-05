@@ -81,18 +81,8 @@ hr{
     width: 50%;
     align-items: center;
     justify-content: center;
-    height: 100%;
     flex-wrap: wrap;
 }
-
-/* .skills .soft-skill-list .skill-container{
-    display: flexbox;
-    margin: 10px;
-    color: rgb(47, 47, 47);
-    background-color: rgb(210, 210, 210);
-    padding: 10px;
-    border-radius: 10px;
-} */
 
 .skills .skills-div .soft-skills-list .skill-container {
     display: flex;
