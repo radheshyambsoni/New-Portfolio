@@ -11,10 +11,12 @@ const About = () => {
         </div>
         <div className="divider"></div>
         <div className="contact">
-            <ul>
+            <h2>Contact</h2>
+            <ul className='contact-items'>
                 <li>📧 geekyradhe11@gmail.com</li>
                 <li>📧 radheshyambsoni@gmail.com</li>
                 <li>📞 +91 9921357773</li>
+                <li>📞 +91 9921857773</li>
             </ul>
         </div>
     </div>

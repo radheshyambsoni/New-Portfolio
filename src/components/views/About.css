@@ -33,7 +33,7 @@
 
 .about .userinfo .my-heading-typing {
     font-size: 1.6rem;
-    color: rgb(23, 190, 251);
+    color: #17befb;
 }
 
 .about .userinfo .my-heading-typing .my-name {
@@ -72,8 +72,17 @@
 
 .about .contact {
     display: flex;
+    flex-direction: column;
     width: 40%;
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
+}
+
+.about .contact h2{
+    color: #17befb;
+}
+
+.about .contact .contact-items{
+    margin-top: 10px;
 }
