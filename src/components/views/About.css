@@ -28,11 +28,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: justify;
     margin: 10px;
+    color: rgb(61, 61, 61);
+    font-size: 1.2rem;
 }
 
 .about .userinfo .my-heading-typing {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #17befb;
 }
 
