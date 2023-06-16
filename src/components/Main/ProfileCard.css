@@ -91,6 +91,10 @@ hr{
     padding: 5px;
 }
 
+.socials .icons a:hover{
+    background-color: transparent;
+}
+
 .socials .icons a>img{
     height: 50px;
     width: 50px;

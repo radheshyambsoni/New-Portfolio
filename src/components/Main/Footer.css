@@ -12,6 +12,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+.footer #name{
+    color: #ffff29;
+}
+
 .footer img{
     width: 20px;
     height: 20px;

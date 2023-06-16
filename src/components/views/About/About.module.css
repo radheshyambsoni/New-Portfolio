@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.about .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 18%;
+    justify-content: center;
+}
+
+.about .header .my-heading-typing {
+    font-size: 2.2rem;
+    color: #17befb;
+}
+
+.my-heading-typing {
+    width: 30ch;
+    animation: typing 2s steps(33), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+}
+
+.about .header .my-heading-typing .my-name {
+    color: brown;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-color: transparent
+    }
+}
+
+.about .rest {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.about .rest .userinfo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about .rest .userinfo .title {
+    color: #17befb;
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.about .rest .userinfo .my-info {
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    margin: 10px;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.about .rest .divider {
+    display: flex;
+    border: 1.5px solid darkgray;
+    border-radius: 10px;
+    height: 90%;
+    margin-left: 12px;    
+}
+
+.about .rest .contact {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.about .rest .contact h2 {
+    color: #17befb;
+    margin-bottom: 20px;
+}
+
+.about .contact li {
+    text-align: center;
+    padding: 2px;
+}

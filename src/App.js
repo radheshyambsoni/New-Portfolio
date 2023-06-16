@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import './App.css';
-import Content from './components/Content';
-import Navbar from './components/Navbar';
-import About from './components/views/About';
-import Footer from './components/Footer';
+import Content from './components/Main/Content';
+import Navbar from './components/Main/Navbar';
+import About from './components/views/About/About';
+import Footer from './components/Main/Footer';
 
 function App() {
   const [view, setView] = useState(<About />);
-  const onViewChangeHandler = (page) => {
+  const viewChangeHandler = (page) => {
     setView(page);
   }
   return (
     <div className="app">
-      <Navbar onViewChange={onViewChangeHandler} />
+      <Navbar onViewChange={viewChangeHandler} />
       <Content page={view}/>
       <Footer />
     </div>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import About from './views/About'
-import Projects from './views/Projects'
-import Skills from './views/Skills'
+import About from '../views/About/About'
+import Projects from '../views/Projects/Projects'
+import Skills from '../views/Skills/Skills'
 
 const Navbar = (props) => {
     const [pjclass,setPjclass] = useState("");
