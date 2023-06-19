@@ -4,13 +4,13 @@ import classes from './About.module.css';
 let myInfo = "I am a passionate computer science engineering student with expertise in multiple programming languages and software development tools. I consistently solve Data Structures and Algorithms (DSA) problems to enhance my analytical thinking and algorithmic design skills. My portfolio demonstrates my proficiency and diverse project experience. I have a strong understanding of fundamental data structures and advanced algorithms, prioritizing code efficiency and optimization. Through my commitment to DSA problem-solving, I approach challenges creatively, aiming to contribute to groundbreaking advancements in computer science.";
 
 const About = () => {
-    return <div className={classes.about}>
+    return <>
         <div className={classes.header}>
             <h2 className={classes['my-heading-typing']}>Welcome 👋 to&nbsp;<span className={classes['my-name']}>Radheshyam's</span>&nbsp;Portfolio</h2>
         </div>
-        
+
         <div className={classes['rest']}>
-            <div className={classes.userinfo}>
+            <div className={classes['about-me']}>
                 <div className={classes.title}>About Me 🤵</div>
                 <div className={classes['my-info']}>{myInfo}</div>
             </div>
@@ -26,7 +26,7 @@ const About = () => {
                 </ul>
             </div>
         </div>
-    </div>
+    </>
 }
 
 export default About;

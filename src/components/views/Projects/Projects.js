@@ -42,7 +42,7 @@ const Projects = () => {
         setSelected('gd');
     }
 
-    return <div className={classes['projects']}>
+    return <>
         <div className={classes["projects-list"]}>
             <ul>
                 <li className={selected === 'hh' ? classes.selected : ""} onClick={onHHClicked}>💊Healthy-HearTechs</li>
@@ -51,7 +51,7 @@ const Projects = () => {
             </ul>
         </div>
         <Project repo={selectedPj.repo} img={selectedPj.img} description={selectedPj.description} />
-    </div>
+    </>
 }
 
 export default Projects;

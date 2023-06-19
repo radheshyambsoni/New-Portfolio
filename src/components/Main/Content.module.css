@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.view{
+.content {
+    display: flex;
+    height: 86%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .view {
     display: flex;
     flex-direction: column;
     margin: 20px;
