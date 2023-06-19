@@ -3,25 +3,15 @@
     box-sizing: border-box;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.about .header {
+.header {
     display: flex;
     width: 100%;
+    height: 20%;
     align-items: center;
-    height: 18%;
     justify-content: center;
 }
 
-.about .header .my-heading-typing {
+.header .my-heading-typing {
     font-size: 2.2rem;
     color: #17befb;
 }
@@ -32,7 +22,7 @@
     white-space: nowrap;
 }
 
-.about .header .my-heading-typing .my-name {
+.header .my-heading-typing .my-name {
     color: brown;
 }
 
@@ -48,14 +38,14 @@
     }
 }
 
-.about .rest {
+.rest {
     display: flex;
     flex-direction: row;
     height: 80%;
     width: 100%;
 }
 
-.about .rest .userinfo {
+.rest .about-me {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -65,14 +55,14 @@
     text-align: center;
 }
 
-.about .rest .userinfo .title {
+.rest .about-me .title {
     color: #17befb;
     font-size: 2rem;
     padding: 10px;
     font-weight: 800;
 }
 
-.about .rest .userinfo .my-info {
+.rest .about-me .my-info {
     width: 90%;
     padding-left: 30px;
     padding-right: 30px;
@@ -84,7 +74,7 @@
     font-size: 1.2rem;
 }
 
-.about .rest .divider {
+.rest .divider {
     display: flex;
     border: 1.5px solid darkgray;
     border-radius: 10px;
@@ -92,7 +82,7 @@
     margin-left: 12px;    
 }
 
-.about .rest .contact {
+.rest .contact {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -102,12 +92,12 @@
     font-size: 1.3rem;
 }
 
-.about .rest .contact h2 {
+.rest .contact h2 {
     color: #17befb;
     margin-bottom: 20px;
 }
 
-.about .contact li {
+.contact li {
     text-align: center;
     padding: 2px;
 }

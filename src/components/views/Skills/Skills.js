@@ -13,7 +13,7 @@ import mysqlico from '../../../img/mysql-ico.svg';
 import androidstudioico from '../../../img/android-studio-ico.svg';
 
 const Skills = () => {
-    return <div className={classes.skills}>
+    return <>
         <div className={classes["section-title"]}>
             <div className={classes.title}>Technical Skills</div>
             <div className={classes.divider}></div>
@@ -71,6 +71,6 @@ const Skills = () => {
                 <div className={classes["skill-container"]}>Networking</div>
             </div>
         </div>
-    </div>
+    </>
 }
 export default Skills;

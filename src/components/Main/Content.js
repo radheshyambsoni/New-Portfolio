@@ -1,12 +1,11 @@
 import React from 'react'
 import ProfileCard from './ProfileCard';
-import './Content.css'
-import View from './View';
+import classes from './Content.module.css';
 
 const Content = (props) => {
-    return <div className="content">
+    return <div className={classes.content}>
         <ProfileCard />
-        <View page={props.page}/>
+        <div className={classes.view}>{props.page}</div>
     </div>
 }
 
