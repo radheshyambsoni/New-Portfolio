@@ -19,12 +19,13 @@
     height: 100%;
 }
 
-.navbar .menu ul>li{
+.navbar .menu li{
     padding: 10px;
     list-style-type: none;
 }
 
-button{
+.navbar .menu button{
+    cursor: pointer;
     background: none;
     padding: 10px;
     font-size: 1.35rem;
@@ -35,12 +36,30 @@ button{
     font-family: 'JetBrains Mono', monospace;
 }
 
-.selected{
+.navbar .menu .selected{
     color: blue;
     background-color: aliceblue;
 }
 
-button:hover{
+.navbar .menu button:hover{
     color: blue;
     background-color: aliceblue;
+}
+
+.navbar .theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar .theme-btn button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.navbar .theme-btn img{
+    height: 40px;
+    width: 40px;
 }
