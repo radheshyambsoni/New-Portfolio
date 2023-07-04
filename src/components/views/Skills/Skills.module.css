@@ -22,9 +22,9 @@
     justify-content: center;
 }
 
-hr{
+.hr{
     border-top: 2px solid darkgray;
-    width: 98%;
+    width: 100%;
 }
 
 

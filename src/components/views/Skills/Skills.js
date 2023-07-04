@@ -19,7 +19,7 @@ const Skills = () => {
             <div className={classes.divider}></div>
             <div className={classes.title}>Soft Skills</div>
         </div>
-        <hr />
+        <hr className={classes.hr}/>
         <div className={classes["skills-div"]}>
             <div className={classes["technical-skills-list"]}>
                 <div className={classes["skill-container"]}>

@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import classes from './Navbar.module.css';
-import About from '../views/About/About';
-import Projects from '../views/Projects/Projects';
-import Skills from '../views/Skills/Skills';
 import darkModeIco from '../../img/dark-mode-ico.svg';
 import lightModeIco from '../../img/light-mode-ico.svg';
 
@@ -10,28 +7,29 @@ const Navbar = (props) => {
     const [pjclass,setPjclass] = useState(false);
     const [skillsclass,setSkillsclass] = useState(false);
     const [abtclass,setAbtclass] = useState(true);
-    const [theme, setTheme] = useState(true);
+    const [theme, setTheme] = useState(false);
     
     const onProjectsClicked = () =>{
-        props.onViewChange(<Projects />);
+        props.onViewChange(1);
         setPjclass(true);
         setSkillsclass(false);
         setAbtclass(false);
     }
     const onSkillsClicked = () =>{
-        props.onViewChange(<Skills />);
+        props.onViewChange(2);
         setPjclass(false);
         setSkillsclass(true);
         setAbtclass(false);
     }
     const onAboutClicked = () =>{
-        props.onViewChange(<About />);
+        props.onViewChange(3);
         setPjclass(false);
         setSkillsclass(false);
         setAbtclass(true);
     }
 
     const themeChangeHandler = () => {
+        props.onThemeChange(!theme)
         setTheme((theme) => !theme);
     }
     
@@ -46,7 +44,7 @@ const Navbar = (props) => {
         </div>
         <div className={classes['theme-btn']}>
             <button onClick={themeChangeHandler}>
-                <img src={theme ? darkModeIco : lightModeIco} alt="" />
+                <img src={theme ? lightModeIco : darkModeIco} alt="" />
             </button>
         </div>
     </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -11,8 +12,8 @@
     justify-content: center;
 }
 
-.header .my-heading-typing {
-    font-size: 2.2rem;
+.my-heading-typing {
+    font-size: 2.4rem;
     color: #17befb;
 }
 
@@ -22,7 +23,7 @@
     white-space: nowrap;
 }
 
-.header .my-heading-typing .my-name {
+.my-name {
     color: brown;
 }
 
@@ -45,7 +46,7 @@
     width: 100%;
 }
 
-.rest .about-me {
+.about-me {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -55,34 +56,38 @@
     text-align: center;
 }
 
-.rest .about-me .title {
+.title {
     color: #17befb;
     font-size: 2rem;
     padding: 10px;
     font-weight: 800;
 }
 
-.rest .about-me .my-info {
+.my-info {
     width: 90%;
     padding-left: 30px;
     padding-right: 30px;
     text-align: justify;
     margin: 10px;
-    color: rgb(61, 61, 61);
+    color: #3d3d3d;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
 }
 
-.rest .divider {
+.my-info-dark {
+    color: #ffffffde;
+}
+
+.divider {
     display: flex;
     border: 1.5px solid darkgray;
     border-radius: 10px;
     height: 90%;
-    margin-left: 12px;    
+    margin-left: 12px;
 }
 
-.rest .contact {
+.contact {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -92,7 +97,7 @@
     font-size: 1.3rem;
 }
 
-.rest .contact h2 {
+.contact h2 {
     color: #17befb;
     margin-bottom: 20px;
 }

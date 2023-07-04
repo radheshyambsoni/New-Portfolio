@@ -37,13 +37,13 @@
 }
 
 .navbar .menu .selected{
-    color: blue;
-    background-color: aliceblue;
+    color: white;
+    background-color: #bdbdbd97;
 }
 
 .navbar .menu button:hover{
-    color: blue;
-    background-color: aliceblue;
+    color: white;
+    background-color: #bdbdbd97;
 }
 
 .navbar .theme-btn{
