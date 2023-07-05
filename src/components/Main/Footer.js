@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Footer.module.css';
-import reactico from '../../img/react-ico-static.png'
+import reactico from '../../assets/icons/react-ico-white.svg'
 
 const Footer = () => {
     return <div className={classes.footer}>

@@ -5,23 +5,26 @@
     justify-content: center;
     height: 60px;
     width: 150px;
-    background-color: gray;
+    background-color: #c8c8c8;
     text-decoration: none;
     border-radius: 20px;
     margin: 5px;
-}
-
-a{
     cursor: pointer;
 }
 
-a:hover{
-    color: black;
-    background-color: darkgray;
+.button-dark{
+    background-color: #2e2e2e;
 }
 
-a:visited{
-    color: black;
+.button:hover{
+    background-color: #ababab;
+}
+
+.button-dark:hover{
+    background-color: #515050;
+}
+
+.button:visited{
     text-decoration: none;
 }
 
@@ -30,11 +33,15 @@ a:visited{
     margin: 6px;
 }
 
-.button .name{
+.button .label{
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     line-height: 50px;
     font-size: 30px;
+}
+
+.button .label-dark{
+    color: white;
 }

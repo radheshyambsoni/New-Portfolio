@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
-.profile-card{
+
+.profile-card {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -15,7 +16,11 @@
     font-family: 'Lato', sans-serif;
 }
 
-.profile-card .profile-photo-div{
+.profile-card-dark {
+    background-color: #121212;
+}
+
+.profile-photo-div {
     display: flex;
     height: 50%;
     width: 100%;
@@ -23,31 +28,34 @@
     justify-content: center;
 }
 
-.profile-card .profile-photo-div .profile-photo  {
+.profile-photo {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 250px;
     width: 250px;
-    border-radius: 120px;
-    background-color: #dbdada;
+    border-radius: 130px;
+    background-color: #b6b6b6;
 }
-.profile-card .profile-photo-div .profile-photo .profile-photo-inner {
+
+.profile-photo-dark {
+    background-color: #494949;
+}
+
+.profile-photo-inner {
     display: flex;
     margin: 10px;
     height: 220px;
     width: 220px;
-    border-radius: 100px;
-    border: 2px soid black;
+    border-radius: 110px;
 }
 
-.profile-card .profile-photo-div .profile-photo .profile-photo-inner img{
+.profile-photo-inner img {
     height: 220px;
     width: 220px;
-    border-radius: 100px;
 }
 
-.user{
+.user {
     display: flex;
     height: 15%;
     align-items: center;
@@ -55,22 +63,34 @@
     flex-direction: column;
 }
 
-.user .user-name{
+.user-name {
     font-size: 30px;
     padding: 10px;
 }
 
-.user .username{
+.user-name-dark{
+    color: #ffffffde;
+}
+
+.username {
     font-size: 18px;
     padding: 10px;
 }
 
-hr{
-    border-top: 2px solid darkgray;
+.username-dark{
+    color: #ffffffde;
+}
+
+hr {
+    border-top: 2px solid #a9a9a9;
     width: 80%;
 }
 
-.socials{
+.hr-dark{
+    border-top: 2px solid #565656;
+}
+
+.socials {
     display: flex;
     height: 30%;
     width: 80%;
@@ -79,7 +99,7 @@ hr{
     justify-content: center;
 }
 
-.socials .icons{
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,15 +107,15 @@ hr{
     padding: 20px;
 }
 
-.socials .icons a{
-    padding: 5px;
+.icons a {
+    padding: 10px;
 }
 
-.socials .icons a:hover{
+.icons a:hover {
     background-color: transparent;
 }
 
-.socials .icons a>img{
+.icons img {
     height: 50px;
     width: 50px;
 }
