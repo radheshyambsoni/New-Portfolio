@@ -106,7 +106,12 @@
     margin-bottom: 20px;
 }
 
+.contact ul{
+    display: flex;
+    flex-direction: column;
+}
+
 .contact li {
     text-align: center;
-    padding: 2px;
+    padding: 6px;
 }

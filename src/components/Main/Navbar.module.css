@@ -46,6 +46,21 @@
     background-color: #bdbdbd97;
 }
 
+.link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.link:visited{
+    color: white;
+}
+
 .navbar .theme-btn{
     display: flex;
     align-items: center;

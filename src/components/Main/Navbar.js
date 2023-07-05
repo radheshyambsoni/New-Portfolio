@@ -39,7 +39,7 @@ const Navbar = (props) => {
                 <li><button className={pjclass ? classes.selected : ""} onClick={onProjectsClicked}>Projects</button></li>
                 <li><button className={skillsclass ? classes.selected : ""} onClick={onSkillsClicked}>Skills</button></li>
                 <li><button className={abtclass ? classes.selected : ""} onClick={onAboutClicked}>About</button></li>
-                <li><a rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'><button>Resume</button></a></li>
+                <li><button><a className={classes.link} rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'>Resume</a></button></li>
             </ul>
         </div>
         <div className={classes['theme-btn']}>

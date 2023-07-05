@@ -10,13 +10,13 @@ const Project = props => {
     return (
         <div className={classes['project-info']}>
             <div className={classes["project-img"]}>
-                <img src={props.img} alt="" />
+                <img src={props.pj.img} alt="" />
             </div>
             <div className={classes["pj-content"]}>
-                <div className={classes["project-description"]}>{props.description}</div>
+                <div className={classes["project-description"]}>{props.pj.description}</div>
                 <div className={classes['btn-grp']}>
-                    <Button href={props.repo} img={props.theme ? githubicodark : githubicolight} name='Repo' alt='Github icon' />
-                    <Button img={props.theme ? linkicolight : linkicodark} name='Link' alt='Link' />
+                    <Button href={props.pj.repo} img={props.theme ? githubicodark : githubicolight} label='Repo' alt='Github icon' theme={props.theme}/>
+                    <Button img={props.theme ? linkicolight : linkicodark} label='Link' alt='Link' theme={props.theme}/>
                 </div>
             </div>
         </div>
