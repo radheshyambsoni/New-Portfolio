@@ -1,14 +1,14 @@
 import React from 'react';
 import classes from './ProfileCard.module.css';
-import radhe from '../../img/radhe.jpg';
-import githubiconlight from '../../img/github-ico-light.svg';
-import githubicondark from '../../img/github-ico-dark.svg';
-import instagramicon from '../../img/instagram-ico.png';
-import linkedinicon from '../../img/linkedin-ico.png';
-import leetcodeiconlight from '../../img/leetcode-ico-light.svg';
-import leetcodeicondark from '../../img/leetcode-ico-dark.svg';
-import facebookicon from '../../img/facebook-ico.png';
-import twittericon from '../../img/twitter-ico.png';
+import radhe from '../../assets/img/radhe.jpg';
+import githubiconlight from '../../assets/icons/github-ico-light.svg';
+import githubicondark from '../../assets/icons/github-ico-dark.svg';
+import instagramicon from '../../assets/icons/instagram-ico.svg';
+import linkedinicon from '../../assets/icons/linkedin-ico.svg';
+import leetcodeiconlight from '../../assets/icons/leetcode-ico-light.svg';
+import leetcodeicondark from '../../assets/icons/leetcode-ico-dark.svg';
+import facebookicon from '../../assets/icons/facebook-ico.svg';
+import twittericon from '../../assets/icons/twitter-ico.svg';
 
 const ProfileCard = (props) => {
     return <div className={`${classes["profile-card"]} ${props.theme ? classes["profile-card-dark"] : ""}`}>

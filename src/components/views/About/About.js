@@ -14,7 +14,7 @@ const About = (props) => {
                 <div className={`${classes['my-info']} ${props.theme ? classes['my-info-dark'] : ''}`}>{myInfo}</div>
             </div>
 
-            <div className={classes.divider}></div>
+            <div className={`${classes.divider} ${props.theme ? classes['divider-dark'] : ''}`}></div>
 
             <div className={classes.contact}>
                 <h2>Contact Me 👇</h2>

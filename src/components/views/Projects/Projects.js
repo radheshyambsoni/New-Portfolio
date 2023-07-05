@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Project from './Project';
 import classes from './Projects.module.css';
-import hhimg from '../../../img/HealthyHearTechs.png';
-import focimg from '../../../img/fitocracy.png'
-import gdimg from '../../../img/GoingDutch1.png'
+import hhimg from '../../../assets/img/HealthyHearTechs.png';
+import focimg from '../../../assets/img/fitocracy.png'
+import gdimg from '../../../assets/img/GoingDutch1.png'
 
 const pjs = [
     {
@@ -23,7 +23,7 @@ const pjs = [
     }
 ];
 
-const Projects = () => {
+const Projects = (props) => {
     const [selectedPj, setSelectedPj] = useState(pjs[0]);
     const [selected, setSelected] = useState('hh');
 
@@ -50,7 +50,7 @@ const Projects = () => {
                 <li className={selected === 'gd' ? classes.selected : ("")} onClick={onGDClicked}>📱Going Dutch</li>
             </ul>
         </div>
-        <Project repo={selectedPj.repo} img={selectedPj.img} description={selectedPj.description} />
+        <Project repo={selectedPj.repo} img={selectedPj.img} description={selectedPj.description} theme={props.theme}/>
     </>
 }
 

@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.section-title{
+.section-title {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.section-title .title{
+.title {
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -22,20 +22,31 @@
     justify-content: center;
 }
 
-.hr{
+.title-dark {
+    color: #ffffffde;
+}
+
+.hr {
     border-top: 2px solid darkgray;
     width: 100%;
 }
 
+.hr-dark {
+    border-top: 2px solid #ffffffde;
+}
 
-.divider{
+.divider {
     display: flex;
     border: 1.5px solid darkgray;
     border-radius: 10px;
-    height: 99%;
+    height: 100%;
 }
 
-.skills-div{
+.divider-dark {
+    border: 1.5px solid #ffffffde;
+}
+
+.skills-div {
     display: flex;
     height: 90%;
     width: 100%;
@@ -43,7 +54,7 @@
     justify-content: center;
 }
 
-.skills-div .technical-skills-list{
+.skills-list {
     display: flex;
     width: 50%;
     align-items: center;
@@ -51,39 +62,26 @@
     flex-wrap: wrap;
 }
 
-.skills-div .technical-skills-list .skill-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(219, 210, 198);
-    margin: 10px;
-    border-radius: 40px;
-}
-
-.skills-div .technical-skills-list .skill-container img{
-    height: 100px;
-    width: 100px;
-}
-
-.skills-div .soft-skills-list{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.skills-div .soft-skills-list .skill-container {
+.skill-container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(219, 210, 198);
-    margin: 10px;
+    width: 105px;
+    height: 105px;
+    background-color: #d7d7d7;
+    margin: 12px;
     border-radius: 40px;
-    font-weight: 800;
+    text-overflow: hidden;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.skill-container-dark {
+    background-color: #282828;
+}
+
+.skill-container img {
+    height: 85px;
+    width: 85px;
 }

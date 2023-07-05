@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classes from './Navbar.module.css';
-import darkModeIco from '../../img/dark-mode-ico.svg';
-import lightModeIco from '../../img/light-mode-ico.svg';
+import darkModeIco from '../../assets/icons/dark-mode-ico.svg';
+import lightModeIco from '../../assets/icons/light-mode-ico.svg';
 
 const Navbar = (props) => {
     const [pjclass,setPjclass] = useState(false);

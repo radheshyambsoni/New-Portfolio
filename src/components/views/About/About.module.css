@@ -81,10 +81,14 @@
 
 .divider {
     display: flex;
-    border: 1.5px solid darkgray;
+    border: 1.5px solid #a9a9a9;
     border-radius: 10px;
     height: 90%;
     margin-left: 12px;
+}
+
+.divider-dark {
+    border: 1.5px solid #ffffffde;
 }
 
 .contact {
