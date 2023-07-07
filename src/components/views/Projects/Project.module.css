@@ -1,0 +1,46 @@
+.project-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.project-info .project-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 60%;
+}
+
+.project-info .project-img img{
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+}
+
+.project-info .pj-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 90%;
+    padding: 20px;
+}
+
+.project-info .pj-content .project-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.project-info .pj-content .btn-grp{
+    display: flex;
+    flex-direction: row;
+}

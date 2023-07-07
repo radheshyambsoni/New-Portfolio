@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 8%;
+    width: 40%;
+    background-color: #a09f9f54;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.navbar .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar .menu li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar .menu button{
+    cursor: pointer;
+    background: none;
+    padding: 10px;
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.navbar .menu .selected{
+    color: white;
+    background-color: #bdbdbd97;
+}
+
+.navbar .menu button:hover{
+    color: white;
+    background-color: #bdbdbd97;
+}
+
+.link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.link:visited{
+    color: white;
+}
+
+.navbar .theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar .theme-btn button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.navbar .theme-btn img{
+    height: 40px;
+    width: 40px;
+}
