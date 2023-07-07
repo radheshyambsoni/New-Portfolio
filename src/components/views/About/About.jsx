@@ -1,5 +1,5 @@
-import React from 'react';
-import classes from './About.module.css';
+import React from 'react'
+import classes from './About.module.css'
 
 let myInfo = "I am a passionate computer science engineering student with expertise in multiple programming languages and software development tools. I consistently solve Data Structures and Algorithms (DSA) problems to enhance my analytical thinking and algorithmic design skills. My portfolio demonstrates my proficiency and diverse project experience. I have a strong understanding of fundamental data structures and advanced algorithms, prioritizing code efficiency and optimization. Through my commitment to DSA problem-solving, I approach challenges creatively, aiming to contribute to groundbreaking advancements in computer science.";
 
@@ -28,4 +28,4 @@ const About = (props) => {
     </>
 }
 
-export default About;
+export default About

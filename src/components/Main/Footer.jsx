@@ -1,5 +1,5 @@
-import React from 'react';
-import classes from './Footer.module.css';
+import React from 'react'
+import classes from './Footer.module.css'
 import reactico from '../../assets/icons/react-ico-white.svg'
 
 const Footer = () => {
@@ -8,4 +8,4 @@ const Footer = () => {
     </div>
 }
 
-export default Footer;
+export default Footer

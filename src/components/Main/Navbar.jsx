@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import classes from './Navbar.module.css';
-import darkModeIco from '../../assets/icons/dark-mode-ico.svg';
-import lightModeIco from '../../assets/icons/light-mode-ico.svg';
+import React, { useState } from 'react'
+import classes from './Navbar.module.css'
+import darkModeIco from '../../assets/icons/dark-mode-ico.svg'
+import lightModeIco from '../../assets/icons/light-mode-ico.svg'
 
 const Navbar = (props) => {
     const [pjclass,setPjclass] = useState(false);
@@ -50,4 +50,4 @@ const Navbar = (props) => {
     </div>
 }
 
-export default Navbar;
+export default Navbar

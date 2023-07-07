@@ -1,9 +1,9 @@
 import React from 'react'
-import ProfileCard from './ProfileCard';
-import classes from './Content.module.css';
-import Skills from '../views/Skills/Skills';
-import About from '../views/About/About';
-import Projects from '../views/Projects/Projects';
+import ProfileCard from './ProfileCard'
+import classes from './Content.module.css'
+import Skills from '../views/Skills/Skills'
+import About from '../views/About/About'
+import Projects from '../views/Projects/Projects'
 
 const Content = (props) => {
     return <div className={classes.content}>
@@ -16,4 +16,4 @@ const Content = (props) => {
     </div>
 }
 
-export default Content;
+export default Content
