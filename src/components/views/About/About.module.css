@@ -109,6 +109,7 @@
 .contact ul{
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .contact li {

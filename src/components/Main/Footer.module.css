@@ -12,6 +12,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+.footer-dark{
+    color: #ffffffde;
+    background-color: #2a2d2f75;
+}
+
 .footer #name{
     color: #ffff29;
 }

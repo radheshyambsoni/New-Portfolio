@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import classes from './App.module.css'
 import Content from './components/Main/Content';
 import Navbar from './components/Main/Navbar';
 import Footer from './components/Main/Footer'
@@ -16,10 +16,10 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={`${classes.app} ${theme ? classes['app-dark'] : ''} `}>
       <Navbar onViewChange={viewChangeHandler} onThemeChange={themeChangeHandler}/>
       <Content page={view} theme={theme}/>
-      <Footer />
+      <Footer theme={theme}/>
     </div>
   )
 }

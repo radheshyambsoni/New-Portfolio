@@ -17,6 +17,14 @@
   animation: rainbow 10s ease infinite;
 }
 
+.app-dark{
+  background: linear-gradient(136deg, rgba(46, 88, 137, 0.816), rgba(17, 133, 120, 0.816), rgba(147, 90, 11, 0.816), rgba(106, 61, 124, 0.816), rgba(163, 80, 80, 0.816), rgba(147, 150, 150, 0.816)) 0% 0% / 1200% 1200%;
+  -webkit-animation: rainbow 10s ease infinite;
+  -z-animation: rainbow 10s ease infinite;
+  -o-animation: rainbow 10s ease infinite;
+  animation: rainbow 10s ease infinite;
+}
+
 @-webkit-keyframes rainbow {
   0% {
     background-position: 0% 82%
