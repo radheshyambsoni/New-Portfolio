@@ -51,7 +51,7 @@ li{
 
 .selected-dark{
     color: #ffffffde;
-    background-color: #6c6c6c97;
+    background-color: #3f3f3f;
 }
 
 .nav-btn:hover{
@@ -61,7 +61,7 @@ li{
 
 .nav-btn-dark:hover{
     color: #ffffffde;
-    background-color: #6c6c6c97;
+    background-color: #3f3f3f;
 }
 
 .link{
