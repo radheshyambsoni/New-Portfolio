@@ -19,7 +19,7 @@ function App() {
     <div className="app">
       <Navbar onViewChange={viewChangeHandler} onThemeChange={themeChangeHandler}/>
       <Content page={view} theme={theme}/>
-      <Footer />
+      <Footer theme={theme}/>
     </div>
   )
 }
