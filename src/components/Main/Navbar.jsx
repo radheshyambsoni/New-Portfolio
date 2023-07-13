@@ -4,8 +4,9 @@ import darkModeIco from '../../assets/icons/dark-mode-ico.svg'
 import lightModeIco from '../../assets/icons/light-mode-ico.svg'
 
 const Navbar = (props) => {
+    const getCurrentTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const [theme, setTheme] = useState(getCurrentTheme);
     const [selected,setSelected] = useState(3);
-    const [theme, setTheme] = useState(false);
     
     const onProjectsClicked = () =>{
         props.onViewChange(1);

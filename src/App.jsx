@@ -5,7 +5,8 @@ import Navbar from './components/Main/Navbar';
 import Footer from './components/Main/Footer'
 
 function App() {
-  const [theme, setTheme] = useState(false);
+  const getCurrentTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useState(getCurrentTheme);
   const themeChangeHandler = (theme) => {
     setTheme(theme);
   }
