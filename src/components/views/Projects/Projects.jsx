@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import ThemeContext from '../../../context/theme-context';
 import Project from './Project';
 import classes from './Projects.module.css';
 import hhimg from '../../../assets/img/HealthyHearTechs.png';
@@ -23,7 +24,8 @@ const pjs = [
     }
 ];
 
-const Projects = (props) => {
+const Projects = () => {
+    const ctx = useContext(ThemeContext);
     const [selected, setSelected] = useState(1);
 
     const onHHClicked = () => {
@@ -41,36 +43,36 @@ const Projects = (props) => {
     return <>
         <div className={classes["projects-list"]}>
             <ul>
-                <li 
+                <li
                     className={`
                         ${classes['list-items']}
-                        ${props.theme ? classes['list-items-dark'] : ''}
-                        ${selected === 1 ? (props.theme ? classes['selected-dark'] : classes.selected) : ""}
+                        ${ctx.theme ? classes['list-items-dark'] : ''}
+                        ${selected === 1 ? (ctx.theme ? classes['selected-dark'] : classes.selected) : ""}
                     `}
                     onClick={onHHClicked}>
                     💊Healthy-HearTechs
                 </li>
-                <li 
+                <li
                     className={`
                         ${classes['list-items']}
-                        ${props.theme ? classes['list-items-dark'] : ''}
-                        ${selected === 2 ? (props.theme ? classes['selected-dark'] : classes.selected) : ""}
+                        ${ctx.theme ? classes['list-items-dark'] : ''}
+                        ${selected === 2 ? (ctx.theme ? classes['selected-dark'] : classes.selected) : ""}
                     `}
                     onClick={onFOCClicked}>
                     🏋️Fit-O-Cracy
                 </li>
-                <li 
+                <li
                     className={`
                         ${classes['list-items']}
-                        ${props.theme ? classes['list-items-dark'] : ''}
-                        ${selected === 3 ? (props.theme ? classes['selected-dark'] : classes.selected) : ""}
+                        ${ctx.theme ? classes['list-items-dark'] : ''}
+                        ${selected === 3 ? (ctx.theme ? classes['selected-dark'] : classes.selected) : ""}
                     `}
                     onClick={onGDClicked}>
                     📱Going Dutch
                 </li>
             </ul>
         </div>
-        <Project pj={pjs[selected - 1]} theme={props.theme} />
+        <Project pj={pjs[selected - 1]} />
     </>
 }
 
