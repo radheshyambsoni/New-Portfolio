@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ProfileCard from './ProfileCard'
 import classes from './Content.module.css'
 import Skills from '../views/Skills/Skills'
 import About from '../views/About/About'
 import Projects from '../views/Projects/Projects'
+import ThemeContext from '../../context/theme-context'
 
 const Content = (props) => {
+    const ctx = useContext(ThemeContext);
+
     return <div className={classes.content}>
-        <ProfileCard theme={props.theme}/>
-        <div className={`${classes.view} ${props.theme ? classes['view-dark'] : ''}`}>
-            {props.page===1 && <Projects theme={props.theme}/>}
-            {props.page===2 && <Skills theme={props.theme}/>}
-            {props.page===3 && <About theme={props.theme}/>}
+        <ProfileCard />
+        <div className={`${classes.view} ${ctx.theme ? classes['view-dark'] : ''}`}>
+            {props.page === 1 && <Projects />}
+            {props.page === 2 && <Skills />}
+            {props.page === 3 && <About />}
         </div>
     </div>
 }
