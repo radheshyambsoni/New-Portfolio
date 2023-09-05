@@ -14,29 +14,31 @@ const Navbar = (props) => {
         setSelected(view);
     };
 
-    return <div className={`${classes.navbar} ${ctx.theme ? classes['navbar-dark'] : ''}`}>
-        <div className={classes.menu}>
-            <ul>
-                <li>
-                    <button className={`${classes['nav-btn']} ${ctx.theme ? classes['nav-btn-dark'] : ''} ${selected === 1 ? ctx.theme ? classes['selected-dark'] : classes.selected : ""}`} onClick={() => { viewChangeHandler(1) }}>Projects</button>
-                </li>
-                <li>
-                    <button className={`${classes['nav-btn']} ${ctx.theme ? classes['nav-btn-dark'] : ''} ${selected === 2 ? ctx.theme ? classes['selected-dark'] : classes.selected : ""}`} onClick={() => { viewChangeHandler(2) }}>Skills</button>
-                </li>
-                <li>
-                    <button className={`${classes['nav-btn']} ${ctx.theme ? classes['nav-btn-dark'] : ''} ${selected === 3 ? ctx.theme ? classes['selected-dark'] : classes.selected : ""}`} onClick={() => { viewChangeHandler(3) }}>About</button>
-                </li>
-                <li>
-                    <button className={`${classes['nav-btn']} ${ctx.theme ? classes['nav-btn-dark'] : ''}`} ><a className={`${classes.link} ${ctx.theme ? classes['link-dark'] : ''}`} rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'>Resume</a></button>
-                </li>
-            </ul>
-        </div>
-        <div className={classes['theme-btn']}>
-            <button onClick={ctx.themeChangeHandler}>
-                <img src={ctx.theme ? lightModeIco : darkModeIco} alt="" />
-            </button>
-        </div>
-    </div>
+    const navClass = `${classes.navbar} ${ctx.theme ? classes['navbar-dark'] : ''}`;
+    const menuClass = `${classes['nav-btn']} ${ctx.theme ? classes['nav-btn-dark'] : ''}`;
+    const selectedClass = `${ctx.theme ? classes['selected-dark'] : classes.selected}`;
+
+    return <nav className={navClass}>
+        <ul>
+            <li>
+                <button className={`${menuClass} ${selected === 1 ? selectedClass : ""}`} onClick={() => { viewChangeHandler(1) }}>Projects</button>
+            </li>
+            <li>
+                <button className={`${menuClass} ${selected === 2 ? selectedClass : ""}`} onClick={() => { viewChangeHandler(2) }}>Skills</button>
+            </li>
+            <li>
+                <button className={`${menuClass} ${selected === 3 ? selectedClass : ""}`} onClick={() => { viewChangeHandler(3) }}>About</button>
+            </li>
+            <li>
+                <button className={`${menuClass}`} ><a className={`${classes.link} ${ctx.theme ? classes['link-dark'] : ''}`} rel="noreferrer" href="https://drive.google.com/file/d/12ua4B2ktykwoCSIyE5ETORng9NQG3Hr-/view?usp=share_link" target='_blank'>Resume</a></button>
+            </li>
+            <li className={classes['theme-btn']}>
+                <button onClick={ctx.themeChangeHandler}>
+                    <img src={ctx.theme ? lightModeIco : darkModeIco} alt="" />
+                </button>
+            </li>
+        </ul>
+    </nav>
 }
 
 export default Navbar

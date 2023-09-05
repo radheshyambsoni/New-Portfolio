@@ -9,14 +9,14 @@ import ThemeContext from '../../context/theme-context'
 const Content = (props) => {
     const ctx = useContext(ThemeContext);
 
-    return <div className={classes.content}>
+    return <main className={classes.content}>
         <ProfileCard />
         <div className={`${classes.view} ${ctx.theme ? classes['view-dark'] : ''}`}>
             {props.page === 1 && <Projects />}
             {props.page === 2 && <Skills />}
             {props.page === 3 && <About />}
         </div>
-    </div>
+    </main>
 }
 
 export default Content

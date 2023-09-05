@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-.footer{
-    display: flex;
-    height: 6%;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
+
+.footer {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.65rem 3rem;
     background-color: #a09f9f54;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px 10px 0 0;
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
-.footer-dark{
+.footer-dark {
     color: #ffffffde;
     background-color: #2a2d2f75;
 }
 
-.footer #name{
+.footer #name {
     color: #ffff29;
 }
 
-.footer img{
+.footer img {
     width: 20px;
     height: 20px;
 }

@@ -16,7 +16,7 @@ const Project = props => {
                 <img src={props.pj.img} alt="" />
             </div>
             <div className={classes["pj-content"]}>
-                <div className={classes["project-description"]}>{props.pj.description}</div>
+                <p>{props.pj.description}</p>
                 <div className={classes['btn-grp']}>
                     <Button href={props.pj.repo} img={ctx.theme ? githubicodark : githubicolight} label='Repo' alt='Github icon' theme={ctx.theme} />
                     <Button img={ctx.theme ? linkicolight : linkicodark} label='Link' alt='Link' theme={ctx.theme} />

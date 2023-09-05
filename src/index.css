@@ -1,0 +1,114 @@
+:root {
+    --bg: linear-gradient(136deg, #4484ced0, #1ad7c0d0, #ff9b11d0, #9b59b6d0, #ff7f7fd0, #ecf0f1d0) 0% 0% / 1200% 1200%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    -webkit-animation: rainbow 10s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+/*
+- Desktop view
+@media screen and (min-width: 1024px) {
+    .my-div {
+        ...
+    }
+}
+ 
+- For Tablet View
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .my-div {
+        ...
+    }
+}
+ 
+- For Mobile Portrait View
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .my-div {
+        ...
+    }
+}
+ 
+- For Mobile Landscape View
+@media screen and (max-device-width: 640px)
+    and (orientation: landscape) {
+    .my-div {
+        ...
+    }
+}
+ 
+- For Mobile Phones Portrait or Landscape View
+@media screen
+    and (max-device-width: 640px) {
+    .my-div {
+        ...
+    }
+}
+*/

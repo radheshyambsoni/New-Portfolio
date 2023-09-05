@@ -1,47 +1,47 @@
-.button{
+.button {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 60px;
-    width: 150px;
     background-color: #c8c8c8;
     text-decoration: none;
+    border: none;
     border-radius: 20px;
-    margin: 5px;
+    margin: 0.3rem 0.5rem;
+    padding: 0.25rem 0.8rem;
     cursor: pointer;
 }
 
-.button-dark{
+.button-dark {
     background-color: #2e2e2e;
 }
 
-.button:hover{
+.button:hover {
     background-color: #ababab;
 }
 
-.button-dark:hover{
+.button-dark:hover {
     background-color: #515050;
 }
 
-.button:visited{
+.button:visited {
     text-decoration: none;
 }
 
-.button .img img{
-    height: 35px;
+.button img {
+    height: 2.3rem;
     margin: 6px;
 }
 
-.button .label{
+.button span {
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
-.button .label-dark{
+.button .label-dark {
     color: #ffffffde;
 }

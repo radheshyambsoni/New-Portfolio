@@ -2,18 +2,15 @@
 
 .content {
     display: flex;
-    height: 86%;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    margin: 1.7rem 0;
 }
 
 .view {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    height: 90%;
-    width: 65%;
+    margin: 0 1.5rem;
+    height: 40rem;
+    width: 65rem;
     border-radius: 10px;
     background-color: #f4f0f0;
     font-family: 'Lato', sans-serif;

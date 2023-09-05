@@ -1,37 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    height: 8%;
-    width: 40%;
+.navbar {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 3.7rem;
     background-color: #a09f9f54;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.navbar-dark{
+.navbar-dark {
     background-color: #2a2d2f75;
 }
 
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-li{
-    padding: 10px;
+li {
+    padding: 0.45rem 0.6rem;
     list-style-type: none;
 }
 
-.nav-btn{
+.nav-btn {
     cursor: pointer;
     background: none;
-    padding: 10px;
+    padding: 0.7rem;
     font-size: 1.35rem;
     font-weight: 900;
     color: white;
@@ -40,74 +30,67 @@ li{
     font-family: 'JetBrains Mono', monospace;
 }
 
-.nav-btn-dark{
+.nav-btn-dark {
     color: #ffffffde;
 }
 
-.selected{
+.selected {
     color: white;
     background-color: #bdbdbd97;
 }
 
-.selected-dark{
+.selected-dark {
     color: #ffffffde;
     background-color: #3f3f3f;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     color: white;
     background-color: #bdbdbd97;
 }
 
-.nav-btn-dark:hover{
+.nav-btn-dark:hover {
     color: #ffffffde;
     background-color: #3f3f3f;
 }
 
-.link{
+.link {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     color: white;
     background-color: transparent;
 }
 
-.link:visited{
+.link:visited {
     color: white;
     background-color: transparent;
 }
 
-.link-dark{
+.link-dark {
     color: #ffffffde;
 }
 
-.link-dark:hover{
-    color: #ffffffde;
-    background-color: transparent;
-}
-
-.link-dark:visited{
+.link-dark:hover {
     color: #ffffffde;
     background-color: transparent;
 }
 
-.theme-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.link-dark:visited {
+    color: #ffffffde;
+    background-color: transparent;
 }
 
-.theme-btn button{
+.theme-btn button {
     cursor: pointer;
     background: transparent;
     border: none;
 }
 
-.theme-btn img{
-    height: 40px;
-    width: 40px;
+.theme-btn img {
+    height: 2.5rem;
+    width: 2.5rem;
 }

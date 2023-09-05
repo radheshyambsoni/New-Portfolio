@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 .profile-card {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 90%;
     align-items: center;
-    margin: 20px;
+    width: 20rem;
+    margin: 0 1.5rem;
     border-radius: 10px;
     background-color: #f4f0f0;
     font-family: 'Lato', sans-serif;
@@ -20,102 +15,82 @@
     background-color: #121212;
 }
 
-.profile-photo-div {
-    display: flex;
-    height: 50%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
 .profile-photo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    width: 250px;
+    margin: 1.85rem;
+    height: 242px;
+    width: 242px;
     border-radius: 130px;
     background-color: #b6b6b6;
+    overflow: hidden;
 }
 
 .profile-photo-dark {
     background-color: #494949;
 }
 
-.profile-photo-inner {
-    display: flex;
-    margin: 10px;
-    height: 220px;
-    width: 220px;
+.profile-photo img {
+    height: 218px;
+    width: 218px;
     border-radius: 110px;
 }
 
-.profile-photo-inner img {
-    height: 220px;
-    width: 220px;
-}
-
-.user {
+.name {
     display: flex;
-    height: 15%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0.6rem 0;
 }
 
-.user-name {
-    font-size: 30px;
-    padding: 10px;
+.name h2 {
+    font-size: 1.9rem;
+    padding: 0.4rem;
 }
 
-.user-name-dark{
+.name p {
+    font-size: 1.25rem;
+    padding: 0.4rem;
+}
+
+.name-dark h2 {
     color: #ffffffde;
 }
 
-.username {
-    font-size: 18px;
-    padding: 10px;
-}
-
-.username-dark{
+.name-dark p {
     color: #ffffffde;
 }
 
 hr {
     border-top: 2px solid #a9a9a9;
-    width: 80%;
+    width: 16rem;
+    margin: 1rem;
 }
 
-.hr-dark{
+.hr-dark {
     border-top: 2px solid #565656;
 }
 
-.socials {
-    display: flex;
-    height: 30%;
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.icons {
+.socialicons {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin: 1rem;
     flex-wrap: wrap;
-    padding: 20px;
 }
 
-.icons a {
-    padding: 10px;
+.socialicons a {
+    padding: 1rem;
 }
 
-.icons a:hover {
+.socialicons a:hover {
     background-color: transparent;
 }
 
-.icons img {
+.socialicons img {
     height: 50px;
     width: 50px;
 }

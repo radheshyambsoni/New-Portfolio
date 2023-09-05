@@ -25,41 +25,41 @@ const Skills = () => {
         </div>
         <hr className={`${classes.hr} ${ctx.theme ? classes['hr-dark'] : ''}`} />
         <div className={classes["skills-div"]}>
-            <div className={classes["skills-list"]}>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+            <ul className={classes["skills-list"]}>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={javaico} alt="Java" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={htmlico} alt="HTML5" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={cssico} alt="CSS5" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={jsico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={reactico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={cppico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={pythonico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={gitico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={ctx.theme ? githubicodark : githubicolight} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={mysqlico} alt="" />
-                </div>
-                <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
+                </li>
+                <li className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>
                     <img src={androidstudioico} alt="" />
-                </div>
-            </div>
+                </li>
+            </ul>
             <div className={`${classes.divider} ${ctx.theme ? classes['divider-dark'] : ''}`}></div>
             <div className={classes["skills-list"]}>
                 <div className={`${classes["skill-container"]} ${ctx.theme ? classes['skill-container-dark'] : ''}`}>Goal-Oriented</div>

@@ -2,17 +2,17 @@ import React, { useContext } from 'react'
 import ThemeContext from '../../../context/theme-context';
 import classes from './About.module.css'
 
-let myInfo = "I am a passionate computer science engineering student with expertise in multiple programming languages and software development tools. I consistently solve Data Structures and Algorithms (DSA) problems to enhance my analytical thinking and algorithmic design skills. My portfolio demonstrates my proficiency and diverse project experience. I have a strong understanding of fundamental data structures and advanced algorithms, prioritizing code efficiency and optimization. Through my commitment to DSA problem-solving, I approach challenges creatively, aiming to contribute to groundbreaking advancements in computer science.";
+const myInfo = "I am a passionate computer science engineering student with expertise in multiple programming languages and software development tools. I consistently solve Data Structures and Algorithms (DSA) problems to enhance my analytical thinking and algorithmic design skills. My portfolio demonstrates my proficiency and diverse project experience. I have a strong understanding of fundamental data structures and advanced algorithms, prioritizing code efficiency and optimization. Through my commitment to DSA problem-solving, I approach challenges creatively, aiming to contribute to groundbreaking advancements in computer science.";
 
 const About = () => {
     const ctx = useContext(ThemeContext);
     return <>
-        <div className={classes.header}>
-            <h2 className={classes['my-heading-typing']}>Welcome 👋 to&nbsp;<span className={classes['my-name']}>Radheshyam's</span>&nbsp;Portfolio</h2>
+        <div className={classes.heading}>
+            <h2>Welcome 👋 to&nbsp;<span className={classes['my-name']}>Radheshyam's</span>&nbsp;Portfolio</h2>
         </div>
         <div className={classes['rest']}>
             <div className={classes['about-me']}>
-                <div className={classes.title}>About Me 🤵</div>
+                <h3 className={classes.title}>About Me 🤵</h3>
                 <div className={`${classes['my-info']} ${ctx.theme ? classes['my-info-dark'] : ''}`}>{myInfo}</div>
             </div>
 

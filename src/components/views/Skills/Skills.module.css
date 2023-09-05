@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 .section-title {
     display: flex;
     flex-direction: row;
@@ -28,6 +24,7 @@
 
 .hr {
     border-top: 2px solid darkgray;
+    margin: 0;
     width: 100%;
 }
 
@@ -39,7 +36,7 @@
     display: flex;
     border: 1.5px solid darkgray;
     border-radius: 10px;
-    height: 100%;
+    height: 99%;
 }
 
 .divider-dark {
@@ -52,6 +49,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 .skills-list {
@@ -67,10 +65,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 105px;
-    height: 105px;
+    width: 6.5rem;
+    height: 6.5rem;
     background-color: #d7d7d7;
-    margin: 12px;
+    margin: 0.8rem;
     border-radius: 40px;
     text-overflow: hidden;
     font-size: 1.1rem;
